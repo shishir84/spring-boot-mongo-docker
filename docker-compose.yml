@@ -6,7 +6,7 @@ services:
     restart: always
     container_name: springboot
     ports:
-      - 9090:8080
+      - 9191:8080
     working_dir: /opt/app
     depends_on:
       - mongo
